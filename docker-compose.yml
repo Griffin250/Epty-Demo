@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  frontend:
+    build: ./frontend
+    ports: ["3000:3000"]
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=http://backend:8000
+
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+    volumes:
+      - ./backend:/app
+    env_file: .env
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo:6
+    ports: ["27017:27017"]
+    volumes:
+      - ./database:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: epty

@@ -1,0 +1,22 @@
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better image rendering */
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Remove blue highlight on mobile */
+button,
+input,
+textarea,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+.logo{
+   width:160px;
+  height:50px;
+}
