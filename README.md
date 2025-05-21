@@ -1,7 +1,7 @@
 # Epty Real Estates
 A brief description of your project and its purpose.
 
-
+```
 epty/
 ├── .github/                   # GitHub workflows
 │   ├── workflows/
@@ -103,6 +103,7 @@ epty/
 ├── Makefile                   # Common commands
 └── README.md
 
+```
 ## Table of Contents
 
 - [Installation](#installation)
