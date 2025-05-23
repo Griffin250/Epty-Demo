@@ -2,8 +2,9 @@ import { useNavigate } from "react-router-dom";
 import React from "react";
 import { Button } from "../ui/Button";
 import heroImage from "../../assets/mashions/mashion1.jpg";
+import MapPage from "./MapPage";
 
-export default function HomeSection() {
+export default function Home() {
   const navigate = useNavigate();
 
   return (
@@ -79,6 +80,8 @@ export default function HomeSection() {
           </div>
         </div>
       </section>
+      
+<MapPage/>
     </>
   );
 }

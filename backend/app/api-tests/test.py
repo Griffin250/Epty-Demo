@@ -4,7 +4,7 @@ from requests.models import PreparedRequest
 URL = "https://ws.geonorge.no/adresser/v1/sok"
 
 params = {
-    'sok':'Bergstien',
+    'sok':'Bygdøy allé ',
     'treffPerSide': 100
 }
 req = PreparedRequest()

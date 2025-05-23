@@ -3,7 +3,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Better image rendering */
+
 img {
   image-rendering: -webkit-optimize-contrast;
 }
@@ -16,7 +16,14 @@ select,
 a {
   -webkit-tap-highlight-color: transparent;
 }
-.logo{
-   width:160px;
-  height:50px;
+
+.logo {
+  width: 160px;
+  height: 50px;
+}
+
+.logo-text {
+  font-family: Gilroy, sans-serif;
+  font-weight:bold;
+  font-size:32px;
 }
