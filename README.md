@@ -3,6 +3,7 @@
 
 *Revolutionizing property discovery with AI-driven recommendations*
 
+# Live Preview available @ *https://epty-frontend.onrender.com/*
 ## Table of Contents
 
 - [Project structure](#projectStructure)
@@ -242,9 +243,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-Your Name - your.email@example.com  
+Developer: GriffinTechs - isiah@griffintechs.no 
+Developer: Thomas - thomas@epty.no
 Project Link: [https://github.com/yourusername/Epty](https://github.com/yourusername/Epty)
 
+# Live Preview available @ *https://epty-frontend.onrender.com/*
 
 * Developed with ❤️ for the Norwegian property market*  
    
